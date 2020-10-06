@@ -1,4 +1,4 @@
-```AWS Security IAM Notes```
+# AWS Security IAM Notes
 
 IAM is global service
 Administer/User can login to AWS console using root credetails or IAM user credentails
