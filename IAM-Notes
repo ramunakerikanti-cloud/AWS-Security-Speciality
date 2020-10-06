@@ -5,3 +5,17 @@ Administer/User can login to AWS console using root credetails or IAM user crede
 IAM service which is global running on us-east-1 region(N.Virginia)
 While user login to aws console, must provide aws accout/alias name
 AWS provide two types of access to aws resources 1. AWS Console 2. Programatic Access( using Access and Secret Keys)
+You can list, manage your permission what administrator has provided to you. GO to AWS Console-->My Security Credentails
+Your AWS root account—the account that’s created when you initially sign up with AWS—has unrestricted access to all your AWS resources
+AWS always recommends that you do not generate access keys for your root account.
+grant each user permissions based on the principle of least privilege: Grant them only the permissions required to perform their assigned tasks.
+To more easily manage the permissions of multiple IAM users, you should assign users with the same permissions to an IAM group.
+Your root account should always be protected by Multi-Factor Authentication (MFA), AWS supports virtual and hardware MFA devices and U2F security keys.
+To allow users access to the AWS Management Console and AWS Command Line Interface (AWS CLI), you have two options
+  - Indentities
+  - Federation
+AWS has the current limit of 5,000 IAM users in Single Account.
+Applications running outside of an AWS environment will need access keys for programmatic access to AWS resources.
+An IAM role is a defined set of permissions—it’s not associated with a specific user or group. Instead, any trusted entity can assume the role to perform a specific business task
+resources that need programmatic access are running inside AWS, the best practice is to use IAM roles
+AWS Security Token Service (AWS STS) is a web service that enables you to request temporary credentials for use in your code, CLI, or third-party tools.
