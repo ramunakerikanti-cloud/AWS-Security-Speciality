@@ -1,1 +1,8 @@
+````AWS Security IAM Notes`````
+
+IAM is global service
+Administer/User can login to AWS console using root credetails or IAM user credentails
+IAM service which is global running on us-east-1 region(N.Virginia)
+While user login to aws console, must provide aws accout/alias name
+AWS provide two types of access to aws resources 1. AWS Console 2. Programatic Access( using Access and Secret Keys)
 
